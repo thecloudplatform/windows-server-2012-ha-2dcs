@@ -127,7 +127,7 @@
     "adBDCPreparationModulesURL": "[concat(parameters('_artifactsLocation'),'/DSC/PrepareADBDC.zip', parameters('_artifactsLocationSasToken'))]",
     "adBDCPreparationFunction": "PrepareADBDC.ps1\\PrepareADBDC",
     "adBDCConfigurationModulesURL": "[concat(parameters('_artifactsLocation'),'/DSC/ConfigureADBDC.zip', parameters('_artifactsLocationSasToken'))]",
-    "adBDCConfigurationFunction": "ConfigureADBDC.ps1\\ConfigureADBDC"
+    "adBDCConfigurationFunction": "ConfigureADBDC.ps1\\ConfigureADBDC",
     "nsgName": "DemoNSG",
     "nsgID": "[resourceId('Microsoft.Network/networkSecurityGroups',variables('nsgName'))]",
     "subnets": [
