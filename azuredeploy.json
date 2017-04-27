@@ -75,7 +75,7 @@
       "metadata": {
         "description": "The location of resources, such as templates and DSC modules, that the template depends on"
       },
-      "defaultValue": "https://raw.githubusercontent.com/thecloudplatform/windows-server-2016-ha-2dcs/master"
+      "defaultValue": "https://raw.githubusercontent.com/thecloudplatform/windows-server-2012-ha-2dcs/master"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
@@ -92,7 +92,7 @@
     "adBDCVMName": "DC2",
     "imagePublisher": "MicrosoftWindowsServer",
     "imageOffer": "WindowsServer",
-    "imageSKU": "2016-Datacenter",
+    "imageSKU": "2012-R2-Datacenter",
     "adAvailabilitySetName": "DCAvailabilitySet",
     "publicIPAddressName": "DCPublicIP",
     "adVMSize": "Standard_DS2_v2",
